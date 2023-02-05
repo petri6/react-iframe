@@ -1,4 +1,13 @@
-# Getting Started with Create React App
+# react-iframe
+
+Tests running a React app from inside an iFrame.  
+
+This test can send messages to:
+- frontend javascript that runs outside the iFrame
+- a CORS enabled backend 
+
+The JavaScript in an iFrame runs independently from the JavaScript in the surrounding webpage.  
+They can communicate by sending messages via the postMessage() function.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
